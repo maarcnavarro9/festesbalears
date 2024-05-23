@@ -1,0 +1,438 @@
+{
+    "@context": "http://schema.org",
+    "@type": "itemList",
+    "itemListElement": [
+        {
+            "@type": "ExhibitionEvent",
+            "id": 1,
+            "name": "Sant Joan",
+            "description": "La festivitat de Sant Joan de Menorca és una celebració emblemàtica que té arrels històriques i culturals profundes a l'illa de Menorca, situada a l'arxipèlag balear a Espanya. Se celebra el 24 de juny de cada any i està lligada tant a tradicions religioses com a festivitats paganes que han evolucionat amb el temps. Des d'una perspectiva històrica, Sant Joan es remunta a èpoques antigues on les comunitats agrícoles marcaven el solstici d'estiu com un moment crucial al cicle de la natura. Aleshores, es realitzaven rituals per honrar el sol i celebrar la fertilitat de la terra, amb pràctiques que incloïen fogueres, danses i banquets cerimonials.\n Amb la cristianització de la regió, la festivitat es va fusionar amb la commemoració de Sant Joan Baptista , qui segons la tradició cristiana, va néixer sis mesos abans de Jesús i és venerat com el precursor del Messies. L'Església Catòlica va establir el 24 de juny com la data per celebrar el seu naixement, cosa que va coincidir amb les festivitats paganes existents.\n La festa de Sant Joan de Menorca es caracteritza per una sèrie d'activitats que reflecteixen aquesta combinació d'elements religiosos i pagans . Les principals tradicions inclouen:\n 1. Desfilada de cavalls i genets: Un dels aspectes més destacats de la celebració és la desfilada de genets a cavall, que recorren els carrers de la ciutat en un espectacle colorit i animat.\n 2. Fogueres i focs artificials: S'encenen fogueres per tota l'illa, especialment a les platges, on la gent es reuneix per gaudir de la companyia, la música i els focs artificials que il·luminen el cel nocturn.\n 3. Balls i música tradicional: Es realitzen actuacions de danses folklòriques i música típica de la regió, on es poden apreciar instruments com la xerèmia (una mena de flauta) i el tambor.\n 4. Processons religioses: També hi ha processons religioses en honor a Sant Joan Baptista, que inclouen misses, benediccions i altres cerimònies tradicionals.",
+            "startDate": "2024-06-23",
+            "endDate": "2024-06-24",
+            "url": "https://www.nauticocean.com/tradicion-e-historia-en-las-fiesta-de-san-joan-en-menorca/",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ciutadella",
+                "addressRegion": "Menorca",
+                "postalCode": "07760"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.9996800",
+                "longitude": "3.8350400"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/logostjoan.jpg",
+                    "name": "Logo de Sant Joan",
+                    "description": "Imatge del logo de Sant Joan"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/SantJoan1.jpg",
+                    "name": "Foto cavalls Sant Joan",
+                    "description": "Dos cavallers en Es Pla de Sant Joan"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/SantJoan.jpg",
+                    "name": "Foto Sant Joan",
+                    "description": "La gent s'arremolina davant dels cavalls al ritme de la música durant la tradicional festa de Sant Joan a Ciutadella"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "Ciutadella viu les seves tradicionals festes de Sant Joan amb cavalls",
+                        "contentUrl": "videos/StJoan.mp4"
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 2,
+            "name": "Sant Antoni",
+            "description": "La Festa de Sant Antoni és la més important de les que se celebren a Sa Pobla i té un arrelament tradicional molt antic. Se'n té constància de la gran devoció des de l'any 1365. L'església de Sant Antoni d'Uialfàs fou erigida parròquia l'any 1357. A través dels segles s'explica per tres vectors: el poble, la parròquia i l'ajuntament.\n La festa té un doble caràcter: religió i profà. El caràcter religiós és degut a la devoció al sant eremita protector del bestiar. El caràcter profà és degut a la idea de festa (fogueres, zambomba, bauxa…) que es comú a molts pobles mediterranis que celebren el solstici d'hivern.\n Durant la festa, es fan diverses activitats. Algunes tenen un aspecte religiós, com les Completes, i d'altres són més lúdiques, com menjar, beure, tocar les zambombes i fer gloses. La nit de Sant Antoni també és la festa del foc. Els dimonis representen les temptacions, l'accés a les coses prohibides, a la bona vida i als plaers pecaminosos. Durant la festa, es realitzen cercaviles de xeremiers, missa a l'església parroquial amb ball a càrrec de l'escola de ball Marjal a Festa i ball de capgrossos a la plaça Major. També es realitzen el ball dels capgrossos i el piromusical.",
+            "startDate": "2025-01-16",
+            "endDate": "2025-01-17",
+            "url": "https://www.illesbalears.travel/es/mallorca/las-fiestas-de-sant-antoni-el-calor-de-la-tradicion",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sa Pobla",
+                "addressRegion": "Mallorca",
+                "postalCode": "07420"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.7692000",
+                "longitude": "3.0239400"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/SantAntoni.jpg",
+                    "name": "Sant Antoni a sa Pobla",
+                    "description": "Imatge de Sant Antoni"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/SantAntoni1.jpg",
+                    "name": "Sant Antoni",
+                    "description": "Correfoc i Hoguera de Sant Antoni"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/SantAntoni2.jpg",
+                    "name": "Celebració de Sant Antoni",
+                    "description": "Centenars de persones assisteixen a les festes de Sant Antoni"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "Ball dels dimonis",
+                        "contentUrl": "videos/StAntoni.webm"
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 3,
+            "name": "La Beata",
+            "description": "La Festa de la Beata a Santa Margalida, Mallorca, és una celebració que té lloc el primer cap de setmana de setembre. Aquesta festivitat té un origen antic i està vinculada amb les festes que es van celebrar el 1792, amb motiu de la beatificació de Sor Caterina Tomàs, molt venerada a Mallorca.\nLes Festes de la Beata van començar el 1768, poc després de la mort de Sor Francinaina Cirer. Amb el pas dels anys, aquestes reunions es van convertir en una celebració més gran amb música, ball i dinar.\nSe celebra en honor a la Beata Sor Francinaina Cirer, una monja nascuda a Santa Margalida que va ser canonitzada pel Papa Joan Pau II el 1989. Les festivitats comencen dissabte a la tarda amb una ofrena floral al monument de la santa, seguida d'una revetlla que es prolonga fins a la matinada. Diumenge és el dia de la Beata, quan els dimonis corren pels carrers de la vila despertant la gent amb el so dels esquelles, i se celebra una missa. A les vuit del vespre surt la processó de l'església, amb carrosses que representen imatges de la vida de Sor Caterina Tomàs, parelles de gaiters i parelles portant una gerra de les nanses entre tots dos. Els dimonis van traient les gerres a les parelles i les porten als dos o tres dimonis, que s'encarreguen de trencar-les als peus de la noia que representa la Beata, ballant el seu ball característic.\nA més, durant la setmana de la festa, es poden trobar parades de menjar a la plaça principal del poble, on es poden degustar menjars típics de les Festes de la Beata com empanades mallorquines, sobrassada, coca de trempó, i licors i vins mallorquins.",
+            "startDate": "2024-09-03",
+            "endDate": "2024-09-03",
+            "url": "https://www.illesbalears.travel/es/mallorca/descubre-las-singulares-fiestas-de-la-beata",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Santa Margalida",
+                "addressRegion": "Mallorca",
+                "postalCode": "07450"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.56947",
+                "longitude": "2.650017"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/LaBeata.jpg",
+                    "name": "La Beata de Santa Margalida",
+                    "description": "Imatge de la festa de la Beata"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/LaBeata2.jpg",
+                    "name": "Festa de la Beata",
+                    "description": "Imatge de la festa de la Beata"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/LaBeata3.jpg",
+                    "name": "La processó de la Beata",
+                    "description": "Imatge de la festa de la Beata"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "Processó de la Beata de Santa Margalida",
+                        "contentUrl": "videos/Beata.mp4"
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 4,
+            "name": "La festa del Vermar",
+            "description": "La Festa des Vermar, també coneguda com a Sa Vermada, és la festivitat més popular de Binissalem, un municipi de l'illa de Mallorca. Aquesta celebració té lloc durant la segona quinzena de setembre i s'estén fins al darrer diumenge del mes.\nLa festa des Vermar rememora l'època de la verema, un període crucial per a l'economia i la cultura de Binissalem. La tradició vinícola de Binissalem és antiga, amb registres de bones collites de vi des del segle XV. La festivitat actual té les seves arrels a les celebracions que van començar el 1768, poc després de la mort de Sor Francinaina Cirer.\nLa festa des Vermar celebra el final de la collita del raïm, un esdeveniment de gran importància per a Binissalem, que dóna nom a una de les Denominacions d'Origen de vi més importants de les Illes Balears i de les més antigues d'Espanya.\nLa festa des Vermar és plena d'activitats per a tots els públics. Algunes de les activitats més destacades inclouen:\n- Benvinguda a sa Vermada: Un esdeveniment de benvinguda que marca l´inici de les festivitats.\n- Pregó inaugural: Es realitza al balcó de l'Ajuntament.\n- Gran Batalla de Raïm: Una batalla campal on es llancen raïms.\n- Concursos de trepitjar raïm: Els participants competeixen per veure qui pot trepitjar més raïm.\n- Revetles, orquestres, cercaviles, concerts i actuacions musicals: Aquests esdeveniments brinden entreteniment per a totes les edats i gustos.\n- Tastes de vi i degustació de Fideus de Vermar: Els visitants poden tastar els vins locals i un plat típic de Binissalem.\n- Desfilades de Carrosses: Els habitants del poble es vesteixen amb roba tradicional de l'illa per honrar la collita.\n- Sopars a l'aire lliure: Els veïns i els visitants gaudeixen de menjars a l'aire lliure en un ambient festiu.\nLa Festa des Vermar és una celebració de la comunitat, la tradició i la cultura local, i cada any atrau visitants de tot arreu.",
+            "startDate": "2024-09-15",
+            "endDate": "2024-09-23",
+            "url": "https://www.mallorca.es/es/-/festes-des-vermar-de-binissalem-fiesta-de-la-vendimia-?classNameId=27801&classPK=73995",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Binisalem",
+                "addressRegion": "Mallorca",
+                "postalCode": "07350"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.6888188742093",
+                "longitude": "2.842193646256339"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/Vermar.jpg",
+                    "name": "La batalla de raïm",
+                    "description": "Imatge de la batalla de raïm del Vermar"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/Vermar2.jpg",
+                    "name": "Trepitjadors",
+                    "description": "Imatge dels trepitjadors del Vermar"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/Vermar3.jpg",
+                    "name": "Menjar multitudinari",
+                    "description": "Gent gaudint dels fideus del Vermar"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "",
+                        "contentUrl": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 5,
+            "name": "Moros i cristians",
+            "startDate": "2024-08-02",
+            "endDate": "2024-08-02",
+            "description": "Des del 1970 les festes comencen amb el tradicional pregó al Claustre de Sant Domingo. Entre els actes cívics destaca la tradicional alborada, que va ser interpretada el 1882 per primera vegada i de la qual és autor Nicolás de Castro.\nEl ball de la dama i els Cossiers s'ha convertit en un dels actes importants de la Patrona des que el 1981 van ser recuperats —després de 71 anys en l'oblit— i, a més, van ser incorporats a aquestes festes ja que abans ballaven per Sant Pere.\nEl Simulacre de Moros i Cristians ha esdevingut, amb el pas del temps, l'acte més important i característic de la Patrona. Bàsicament, es tracta de la commemoració de la victòria dels pollensins (cristians) sobre els corsaris (moros) de Dragut, que la nit del 30 al 31 de maig de 1550 van atacar la vila de Pollença. La primera notícia de la commemoració del Simulacre data del 1860, encara que podria haver començat uns anys abans.\nL'acció s'inicia a la plaça de l'Almoina -a la Font del Gall-, amb la trobada dels líders de les dues hosts: Joan Mas, per part dels pollencs; i Dragut i el seu lloctinent —un renegat natural de Pollença—, per part dels moros. A les set de la tarda, i després que Joan Mas invoqui la Mare de Déu dels Àngels, es produeix un impressionant xoc entre els dos grups de combatents que dóna una gran originalitat al Simulacre. A poc a poc, els corsaris van reculant seguint el carrer Major, i en arribar a Can Nogués surt l'antic consistori, és a dir, l'antiga Universitat amb l'alcalde reial, que s'incorpora al combat. Davant de l'església de Sant Jordi (al final del carrer Major) se celebra un altre combat important, amb la incorporació dels canons dels cristians.\nAmb aquesta festa, es commemora l'alliberament dels captius dels corsaris en el seu avenç fins al poble. El simulacre acaba al camp de can Escarrinxo, a la sortida del poble en direcció al Port de Pollença. Així, després de tres enfrontaments els cristians aconsegueixen la bandera corsària i, tot seguit, es dirigeixen a la Parròquia a cantar un tedeig en acció de gràcies per la victòria (sempre ha estat el de Mossèn Miquel Tortell). Al temple també es canta el Puig Patrona de Costa i Llobera.\nCal assenyalar que, des del 1988, els principals càrrecs del Simulacre són elegits per votació popular en un dia assenyalat entre les primeres setmanes del mes de juliol.",
+            "url": "https://www.pollensa.com/es/que-hacer/ferias-y-fiestas/la-patrona#:~:text=B%C3%A1sicamente%2C%20se%20trata%20de%20la,haber%20empezado%20unos%20a%C3%B1os%20antes.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Pollensa",
+                "addressRegion": "Mallorca",
+                "postalCode": "07460"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.87710917728135",
+                "longitude": "3.016139363759523"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/MorosyCristianos.jpg",
+                    "name": "Celebració de la Patrona",
+                    "description": "Imatge de la celebració de la Patrona"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/MorosyCristianos2.jpg",
+                    "name": "Simulacre moros i cristians",
+                    "description": "Imatge del batalla de la Patrona"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/MorosyCristianos3.jpg",
+                    "name": "Moros i cristians",
+                    "description": "Imatge de la festa de la Patrona"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "Moros i Cristians Pollensa",
+                        "contentUrl": "videos/MorosICristians.mp4"
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 6,
+            "name": "Festes de la Terra",
+            "description": "Les Festes de la Terra a Eivissa són una celebració emblemàtica que es duu a terme durant la primera setmana d'agost.\nAquestes festivitats tenen les arrels a l'antiga tradició de celebrar la història i les tradicions de l'illa d'Eivissa. L' objectiu d'aquestes festivitats és recordar la història de l' illa d' Eivissa.\nLes Festes de la Terra se celebren per commemorar la història i les tradicions de l'illa d'Eivissa. Un dels dies més importants de les Festes de la Terra a Eivissa és el 5 d'agost, quan se celebra el dia de la Mare de Déu de les Neus, la patrona d'Eivissa i de Formentera. El 8 d'agost se celebra Sant Ciriaco, en memòria de la conquesta catalana de l'illa, que va tenir lloc l'any 12353.\nLes Festes de la Terra són plenes dactivitats per a tots els públics. Algunes de les activitats més destacades inclouen:\n- Desfilada de Carros: Una desfilada tradicional que marca l'inici de les festivitats.\n- Trobada d'Artesans i Oficis d'Eivissa: Una trobada d'artesans i oficis al passeig de Vara de Rey.\n- Ball pagès amb Sa Colla de Vila: Un ball tradicional realitzat per Sa Colla de Vila.\n- Torre de Castellers a càrrec de la Colla Castellera Boixes d’Eivissa: Una torre de castellers realitzada per la Colla Castellera Boixes d’Eivissa.\n- Correfocs amb Dimonis És mals esperits: Un correfoc realitzat per Dimonis És mals esperits.\n- Gran Circ Acrobàtic De Xina: Un espectacle del Gran Circ Acrobàtic De China.\n- Activitats Infantils, Gimcana amb Pista d'Inflables i Festes de l'Escuma: Activitats per a nens, una gimcana amb pista d'inflables i festes de l'escuma.\n- Nit d'Humor 'Los cuñaos': Un espectacle d'humor amb Santi Rodríguez, Jose Campoy i Jose Boto.\n- Revetlla per ballar 'Esta de la sé': Una revetlla per ballar amb la banda musical 'Esta de la sé'.\nA més, durant les festivitats, es poden trobar parades de menjar a la plaça principal del poble, on es poden degustar menjars típics de les Festes de la Terra.",
+            "startDate": "2024-07-30",
+            "endDate": "2024-08-15",
+            "url": "https://eivissa.es/portal/index.php/es/394-noticias/21573-las-festes-de-la-terra-llenan-la-ciudad-de-eivissa-de-actividades-deportivas",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Talamanca",
+                "addressRegion": "Ibiza",
+                "postalCode": "07800"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "38.92932376237567",
+                "longitude": "1.4363575747627821"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/FestesTerra.jpg",
+                    "name": "Ball pagès",
+                    "description": "Imatge d'un ball pagès per les festes de la Terra"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/FestesTerra2.jpg",
+                    "name": "Focs artificials",
+                    "description": "Focs artificials per les festes de la Terra"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "",
+                        "contentUrl": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 7,
+            "name": "Sant Martí de Es Mercadal",
+            "description": "La Festa de Sant Martí a Es Mercadal, Menorca, és una celebració que té lloc durant el tercer cap de setmana de juliol.\n\nLes festivitats de Sant Martí tenen un origen antic i estan vinculades amb les festes de Sant Joanet que se celebraven a l'estiu. Originalment, la festivitat de Sant Martí es feia l'11 de novembre, però des de finals del segle XVIII també se celebrava a l'estiu. A principis del segle XX, l'estructura de la qualcada (cavalcada) ja estava pràcticament integrada pels membres que avui dia es coneixen, representants dels sectors que jugaven un paper destacat a les societats tradicionals dels segles passats.\n\nSe celebra en honor a Sant Martí, el patró des Mercadal. La festivitat té un caràcter civicoreligiós i és molt popular.\n\nDurant la festa, es realitzen diverses activitats. Algunes de les més destacades inclouen:\n\n- Repic de campanes: Marqueu l'inici de les festivitats.\n- Replec de caixers: Els cavalls engalanats comencen el replegament, fent un cargol pels principals carrers del poble recollint la resta de cavallers integrants de la qualcada.\n- Jaleo: Els cavalls boten al ritme de la música popular.\n- Solemnes Complets: Se celebren a l'església de Sant Martí.\n- Recepció oficial: Per a autoritats i convidats a l'Ajuntament de la vila.\n- Repartiment d'ampolletes d'aigua-ros: Els cavallistes més joves van de casa a casa repartint ampolletes d'aigua-ros, un destil·lat de pètals de rosa molt típic de les festes patronals menorquines.\n\nA més, durant les festivitats, es poden trobar parades de menjar a la plaça principal del poble, on es poden degustar menjars típics de les Festes de Sant Martí.",
+            "startDate": "2024-07-15",
+            "endDate": "2024-07-17",
+            "url": "https://www.illesbalears.travel/es/menorca/fiestas-de-sant-marti-de-es-mercadal",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Es Mercadal",
+                "addressRegion": "Menorca",
+                "postalCode": "07740"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.988542774588645",
+                "longitude": "4.092135082822587"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/Mercadal.jpg",
+                    "name": "Jaleo a Mercadal",
+                    "description": "Imatge de la festa de Sant Martí"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/Mercadal2.jpg",
+                    "name": "Festes de Sant Martí de Es Mercadal",
+                    "description": "Imatge d'un cavall per la Festa de Sant Martí"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "",
+                        "contentUrl": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 8,
+            "name": "Sant Sebastià",
+            "description": "Sant Sebastià és el patró de Palma de Mallorca des de l'any 1642. Tot va començar el 1523, durant una pandèmia, quan el prebíster de l'Illa de Rodes, Emmanuel Suriavisqui, va arribar a Palma fugint dels turcs. El vaixell no va poder sortir de l'illa malgrat diversos intents. Curiosament, la seva arribada va coincidir amb una disminució dels casos de pesta, per la qual cosa se li van atribuir a la relíquia de Sant Sebastià que portava (un braç) efectes miraculosos. Finalment, el braç de Sant Sebastià es va quedar a Palma i els cavallers van poder seguir el viatge.\n\nLa Festa de Sant Sebastià se celebra en honor de Sant Sebastià, el patró de Palma de Mallorca. Es creu que la relíquia de Sant Sebastià va tenir un paper miraculós en la disminució dels casos de pesta durant una epidèmia al segle XVI. Des de llavors, Sant Sebastià ha estat venerat com el protector contra la pesta.\n\nLes festes de Sant Sebastià a Palma se celebren entre l'1 i el 20 de gener. Durant les celebracions es fan fogueres, balls, concerts i música en directe, activitats familiars. Alguns dels actes més importants inclouen la inauguració de les festes i el tancament de les festes amb el correfoc. També es fan activitats per als més petits, com el Sant Sebastià Petit. A més, se celebren concerts i es realitzen grans torrades a les principals places de Palma, així com a molts barris de la ciutat.\n\ncal destacar el 19 de gener és un dia molt especial durant les festes de Sant Sebastià. Aquest dia se celebra la Revetla de Sant Sebastià, que és la vigília de la festivitat de Sant Sebastià⁴¹¹.\n\nDurant la nit del 19 de gener, se celebren concerts i es realitzen grans torrades (barbacoes) a les principals places de Palma, així com a molts barris de la ciutat. Els concerts són protagonitzats per diversos artistes i bandes, i cada plaça té el seu propi estil de música.\n\nA més, un dels personatges més emblemàtics d'aquestes festes és el “Drac de na Coca”. Segons la llegenda, aquest \"drac\" era en realitat un cocodril que vivia a les clavegueres de Palma al segle XVII. El Drac de na Coca ha esdevingut un símbol de les festes de Sant Sebastià i la seva aparició marca l'inici dels foguerons de les festes.",
+            "startDate": "2025-01-17",
+            "endDate": "2025-01-20",
+            "url": "https://www.visitpalma.com/es/pl523/descubrir/que-ver-y-que-hacer/imprescindible-experiencias/id96/fiestas-de-sant-sebastia.htm",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palma",
+                "addressRegion": "Mallorca",
+                "postalCode": "07001"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.575388027135745",
+                "longitude": "2.652522771551713"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/StSebastia.jpg",
+                    "name": "Sant Sebastià",
+                    "description": "Imatge de la festa de la Sant Sebastià"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/StSebastia2.jpg",
+                    "name": "Dimonis per Sant Sebastià",
+                    "description": "Imatge dels dimonis de Sant Sebastià"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/StSebastia3.jpg",
+                    "name": "Torrades",
+                    "description": "Imatge de torrades per les festa de Sant Sebastià"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "Correfoc de Sant Sebastià",
+                        "contentUrl": "videos/StSebastia.webm"
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ExhibitionEvent",
+            "id": 9,
+            "name": "El Cosso",
+            "description": "La Festa del Cosso és una celebració popular que té lloc a Felanitx, Mallorca, durant les festivitats de Sant Agustí. Aquesta festa, que va començar el 1983, ha evolucionat molt al llarg dels anys, però sempre n'ha mantingut el caràcter festiu, irònic i reivindicatiu.\nLa Festa del Cosso va néixer el 1983 com una taula espontània durant la vedada que se celebrava anualment a Felanitx, coincidint amb les festivitats de Sant Agustí. Amb el temps, es va convertir en una paròdia del món taurí i va adquirir un caràcter festiu i reivindicatiu. Al llarg dels anys, han sorgit altres penyes que celebren la festa cadascuna a la seva manera.\nLa Festa del Cosso se celebra en honor de Sant Agustí, el patró de Felanitx. Tot i el seu gran renom a tot Mallorca, no es tracta de les festes patronals, ja que la patrona de Felanitx és Santa Margalida.\nLa festivitat comença amb la resurrecció de 'Sa Quica' a la Font de Santa Margalida. A les 09:30, la professora i actriu Marta Obrador llegeix el pregó a la Plaça de s'Arraval. A les 11:00, se celebra un ofici religiós, al qual assisteixen les autoritats acompanyades pels Cavallets. Després, es realitza el clàssic Ball dels Cavallets i dels Gegants, seguit d'un cercavila amb caparrots i dimonis. A la tarda, a partir de les 20:00, comença la revetlla al Parc Municipal Sa Torre.",
+            "startDate": "2024-08-28",
+            "endDate": "2024-08-28",
+            "url": "https://ca.wikipedia.org/wiki/El_Cosso",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Felanitx",
+                "addressRegion": "Mallorca",
+                "postalCode": "07200"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "39.4698600",
+                "longitude": "3.14655303"
+            },
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/img/portfolio/fullsize/3.jpg",
+                    "name": "Celebració Cosso",
+                    "description": "Imatge de la gent a la celebració del Cosso"
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "img/Cosso.jpg",
+                    "name": "El Cosso a Felanitx",
+                    "description": "Imatge del pregó del Cosso"
+                }
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "",
+                        "contentUrl": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
