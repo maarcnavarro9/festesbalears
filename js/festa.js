@@ -49,30 +49,32 @@ function getJSONCompaneros(url) {
 var res = getJSON("festes.json").then(data=>{
     festa = data[0]
     data.forEach(fest=>{
-        if (fest.id == url) {
+        if (fest.identifier == url) {
             festa = fest;
 
             //Creació del JSON-LD
             let s = {
                 "@context": "http://schema.org",
                 "@type": "ExhibitionEvent",
-                "id": festa.id,
+                "identifier": festa.identifier,
                 "name": festa.name,
                 "description": festa.description,
                 "startDate": festa.startDate,
                 "endDate": festa.endDate,
                 "url": festa.url,
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": festa.address.addressLocality,
-                    "addressRegion": festa.address.addressRegion,
-                    "postalCode": festa.address.postalCode,
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": festa.geo.latitude,
-                    "longitude": festa.geo.longitude
-                },
+                "location": {
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": festa.location.address.addressLocality,
+                        "addressRegion": festa.location.address.addressRegion,
+                        "postalCode": festa.location.address.postalCode,
+                    },
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": festa.location.geo.latitude,
+                        "longitude": festa.location.geo.longitude
+                    },
+                  },
                 "image": festa.image,
                 "subjectOf": {
                     "@type": "CreativeWork",
@@ -124,7 +126,7 @@ var res = getJSON("festes.json").then(data=>{
             </div>
             <div class="margin">
             <div class="">
-                <h3 class="text-primary text-blue text-center fw-bolder">Teatres aprop</h3>
+                <h3 class="text-primary text-blue text-center fw-bolder">Teatres a ≤ 10 km</h3>
                 <div class="row2" id="teatros">
                     ${TeatresAprop(festa)}
                 </div>
@@ -132,9 +134,9 @@ var res = getJSON("festes.json").then(data=>{
         </div>
         <div class="margin">
             <div class="">
-                <h3 class="text-primary text-blue text-center fw-bolder">Galeries aprop</h3>
+                <h3 class="text-primary text-blue text-center fw-bolder">Galeries i Museus a ≤ 10 km</h3>
                 <div class="row2" id="galeries">
-                    ${GaleriesCerca(festa)}
+                    ${GaleriesAprop(festa)}
                 </div>
             </div>
         </div>
@@ -189,12 +191,12 @@ function initMap() {
     getJSON("festes.json").then(data=>{
         festa = data[0]
         data.forEach(fest=>{
-            if (fest.id == url) {
+            if (fest.identifier == url) {
                 festa = fest;
             }
         })
 
-    var festacoord = { lat: Number(festa.geo.latitude), lng: Number(festa.geo.longitude) };
+    var festacoord = { lat: Number(festa.location.geo.latitude), lng: Number(festa.location.geo.longitude) };
 
     var map = new google.maps.Map(document.getElementById("map"), {
         center: festacoord,
@@ -207,14 +209,14 @@ function initMap() {
         title: festa.name,
     });
 
-    var googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${festa.name}, ${festa.address.streetAddress}, ${festa.address.addressLocality}, ${festa.address.addressRegion}`;
+    var googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${festa.name}, ${festa.location.address.streetAddress}, ${festa.location.address.addressLocality}, ${festa.location.address.addressRegion}`;
 
     var infoWindowContent = `
             <div>
                 <h6>${festa.name}</h6>
-                <div>${festa.address.postalCode}</div>
-                <div>${festa.address.addressLocality}</div>
-                <div>${festa.address.addressRegion}</div>
+                <div>${festa.location.address.postalCode}</div>
+                <div>${festa.location.address.addressLocality}</div>
+                <div>${festa.location.address.addressRegion}</div>
                 <a href="${googleMapsUrl}" target="_blank">Veure en Google Maps</a>
             </div>`
         ;
@@ -231,7 +233,7 @@ function initMap() {
   
 function getWeatherInfo() {
     const apiKey = '0dbb101dc3db32c5054e676a3da93543';
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${Number(festa.geo.latitude)}&lon=${Number(festa.geo.longitude)}&appid=${apiKey}&units=metric&lang=es`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${Number(festa.location.geo.latitude)}&lon=${Number(festa.location.geo.longitude)}&appid=${apiKey}&units=metric&lang=es`;
 
     fetch(apiUrl)
         .then(response => response.json())
@@ -239,7 +241,7 @@ function getWeatherInfo() {
             const weatherInfo = `
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Temps a  ${festa.address.addressLocality}</h5>
+                        <h5 class="card-title">Temps a  ${festa.location.address.addressLocality}</h5>
                         <p class="card-text">Clima: <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png"alt="Icon de clima"></p>               
                         <p class="card-text">Temperatura: ${data.main.temp}°C</p>
                         <p class="card-text">Sensació Tèrmica: ${data.main.feels_like}°C</p>     
@@ -272,8 +274,8 @@ function formatearDescripcionHTML(descripcion) {
 
 function TeatresAprop(edif){
     let ed=[];
-    let latitude = edif.geo.latitude;
-    let longitude = edif.geo.longitude;
+    let latitude = edif.location.geo.latitude;
+    let longitude = edif.location.geo.longitude;
     fetch("https://www.descobreixteatre.com/assets/json/Teatre.json")
     .then((response) => response.json())
     .then((data) => {
@@ -324,10 +326,10 @@ function cardTeatre(teat) {
             </div>`
 }
 
-function GaleriesCerca(gal){
+function GaleriesAprop(gal){
     let ed=[];
-    let latitude = gal.geo.latitude;
-    let longitude = gal.geo.longitude;
+    let latitude = gal.location.geo.latitude;
+    let longitude = gal.location.geo.longitude;
     fetch("https://www.memoriabalear.com/api/find?lang=es")
     .then((response) => response.json())
     .then((data) => {
@@ -367,7 +369,7 @@ function GaleriesCerca(gal){
 
 function Galeriescard(gal) {
     return `<div class="card shadow border-0">
-                <img class="card-img-top festaImg" src="https://www.memoriabalear.com/api/find?lang=es" alt="..." />
+                <img class="card-img-top festaImg" src="${gal.image}" />
                 <div class="card-body p-4">
                     <a class="text-decoration-none link-dark stretched-link" href="https://www.memoriabalear.com/"><h5 class="card-title mb-3">${gal.name}</h5></a>
                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">${gal.address.addressLocality}</div><br>

@@ -39,9 +39,9 @@ function Festacard(festa) {
     return `<div class="card shadow border-0">
                 <img class="card-img-top festaImg" src="${festa.image[0].contentUrl}" alt="..." />
                 <div class="card-body p-4">
-                    <a class="text-decoration-none link-dark stretched-link" href="festa.html?${festa.id}"><h5 class="card-title mb-3">${festa.name}</h5></a>
-                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">${festa.address.addressRegion}</div><br>
-                    <p class="card-text mb-0 margin-card-p"><h6>Codi Postal: ${festa.address.postalCode}</h6></p><br>
+                    <a class="text-decoration-none link-dark stretched-link" href="festa.html?${festa.identifier}"><h5 class="card-title mb-3">${festa.name}</h5></a>
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">${festa.location.address.addressRegion}</div><br>
+                    <p class="card-text mb-0 margin-card-p"><h6>Codi Postal: ${festa.location.address.postalCode}</h6></p><br>
                     <p class="card-text mb-0 margin-card-p"><h6>Data de Inici: ${festa.startDate}</h6></p><br>
                     <p class="card-text mb-0 margin-card-p"><h6>Data de Fi: ${festa.endDate}</h6></p>
                 </div>

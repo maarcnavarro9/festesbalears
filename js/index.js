@@ -32,7 +32,7 @@ function generatePortfolioBox(item) {
         <a class="portfolio-box" href="${item.image[1].contentUrl}" title="${item.name}">
             <img class="img-fluidport" src="${item.image[1].contentUrl}" alt="..." />
             <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">${item.address.addressRegion}</div>
+                <div class="project-category text-white-50">${item.location.address.addressRegion}</div>
                 <div class="project-name">${item.name}</div>
             </div>
         </a>

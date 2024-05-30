@@ -5,18 +5,18 @@ function initMap() {
         // Recorre les dades i afegeix cada festa a la llista de resultats
         data.forEach(festa => {
             results.push({
-                lat: Number(festa.geo.latitude), // Latitud de la festa
-                lng: Number(festa.geo.longitude), // Longitud de la festa
-                id: festa.id, // ID de la festa
+                lat: Number(festa.location.geo.latitude), // Latitud de la festa
+                lng: Number(festa.location.geo.longitude), // Longitud de la festa
+                id: festa.identifier, // ID de la festa
                 name: festa.name, // Nom de la festa
-                codigo: festa.address.postalCode, // Codi postal de la festa
-                locality: festa.address.addressLocality, // Localitat de la festa
-                region: festa.address.addressRegion, // Regió de la festa
+                codigo: festa.location.address.postalCode, // Codi postal de la festa
+                locality: festa.location.address.addressLocality, // Localitat de la festa
+                region: festa.location.address.addressRegion, // Regió de la festa
             });
         });
 
         // Coordenades de la primera festa com a centre del mapa
-        let festes = { lat: Number(data[0].geo.latitude), lng: Number(data[0].geo.longitude) };
+        let festes = { lat: Number(data[0].location.geo.latitude), lng: Number(data[0].location.geo.longitude) };
 
         // Element HTML on es mostrarà el mapa
         let targetElem = document.getElementById('map');
@@ -42,7 +42,7 @@ function initMap() {
                     <div>${festa.codigo}</div>
                     <div>${festa.locality}</div>
                     <div>${festa.region}</div>
-                    <a href=festa.html?${festa.id}>Ver más</a>
+                    <a href=festa.html?${festa.identifier}>Ver más</a>
                 </div>`;
 
             // Crea una finestra d'informació per a cada festa
